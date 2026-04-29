@@ -1,0 +1,47 @@
+.container-forms {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1500px;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    font-size: large;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cor-fundo-forms);
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+
+button {
+    font-size: x-large;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--cor-fundo-forms);
+    transition: 0.2s ease;
+    color: #806C3D;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover {
+    transform: scale(1.1);
+}
+button:active {
+    transform: scale(1);
+}

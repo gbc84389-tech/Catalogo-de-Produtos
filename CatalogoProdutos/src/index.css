@@ -1,0 +1,12 @@
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 50px;
+
+    --cor-fundo-forms: #FFFAA5;
+    --cor-fundo-pagina: rgb(255, 253, 208);
+    --cor-font: #806C3D;
+}

@@ -1,0 +1,50 @@
+.Produto-card-container {
+    width: 900px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 2px dashed #806C3D;
+    border-radius: 8px;
+    padding: 10px 5px 5px 5px;
+    flex-wrap: nowrap;
+    cursor: grab;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+.Produto-card-container:active {
+    cursor: grabbing;
+}
+.Produto-card-container::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    border-radius: 8px;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+span {
+    font-weight: bold;
+    font-size: x-large;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+p {
+    font-weight: bold;
+    font-size: large;
+    -webkit-user-drag: none;
+    user-select: none;
+}
